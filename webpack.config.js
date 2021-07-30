@@ -62,7 +62,7 @@ module.exports = {
 			'process.env': {
 				CLIENT_ID_PP: JSON.stringify(process.env.CLIENT_ID_PP),
 				GOOGLE_MAPS_API_KEY: JSON.stringify(process.env.GOOGLE_MAPS_API_KEY),
-			},
+			}
 		}),
   ],
   devServer: {
